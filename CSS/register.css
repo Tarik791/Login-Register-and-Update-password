@@ -1,0 +1,142 @@
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+
+    background-color: #b8c6db;
+background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+font-family: sans-serif;
+margin: 0;
+
+min-height: 100vh;
+padding-top: 2%;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+width: 100%;
+background-color: #fff;
+margin: 20px auto;
+padding: 30px;
+box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+    padding-top: 3%;
+}
+
+.title{
+    padding: 4%;
+    text-align: center;
+    
+}
+
+.wrapper .form{
+
+width: 100%;
+
+
+}
+
+.wrapper .form .field{
+
+margin-bottom: 15px;
+display: flex;
+align-items: center;
+
+
+}
+
+
+.wrapper .form .field label{
+
+width: 200px;
+color: #757575;
+margin-right: 10px;
+font-size: 14px;
+}
+
+
+.wrapper .form .field .input{
+
+width: 100%;
+outline: none;
+border: 1px solid #d5dbd9;
+font-size: 15px;
+padding: 8px 10px;
+border-radius: 3px;
+transition: all 0.3s ease;
+
+}
+
+
+.wrapper .form .field .input{
+
+resize: none;
+height: 45px;
+
+
+}
+
+
+.wrapper .form .field .input:focus{
+
+border: 1px solid black;
+
+}
+
+
+.wrapper .form .field .btnn{
+
+width: 100%;
+padding: 8px 10px;
+font-size: 15px;
+border: 0;
+background: #fec107;
+color: #fff;
+cursor: pointer;
+border-radius: 3px;
+outline: none;
+transition: 0.5s;
+
+}
+
+
+.wrapper .form .field:last-child{
+
+margin-bottom: 0;
+
+}
+
+.wrapper .form .field .btnn:hover{
+background-color: #ffd658;
+}
+
+@media(max-width: 510px){
+
+.wrapper{
+
+width: 90%;
+height: 50%;
+
+}
+
+.wrapper .form .field{
+
+flex-direction: column;
+align-items: flex-start;
+
+}
+
+.wrapper .form .field label{
+
+margin-bottom: 5px;
+
+}
+
+}

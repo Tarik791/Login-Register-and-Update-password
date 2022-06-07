@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Serif';
+}
+
+body{
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.quiz-container{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100,100, 100, 0.1);
+    width: 600px;
+    max-width: 100%;
+}
+
+.quiz-header{
+
+    padding: 2rem;
+}
+
+h2{ 
+
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul{
+
+    list-style-type: none;
+    padding: 0;
+
+}
+
+ul li {
+
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+
+        cursor: pointer;
+
+
+
+}
+
+button{
+
+    cursor: pointer;
+    background-color: #8e44ad;
+    border: none;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: 1.1rem;
+    padding: 1.3rem;
+    transition: 0.5s;
+
+}
+
+button:hover{
+    background-color: #732d91;
+}
+
+button:focus{
+
+    background-color: #732d91;
+    outline: none;
+
+}
+
+/*REGISTRATION*/
+
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+
+}
+
+.wrapper .title{
+
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #fec107;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.wrapper .form{
+
+    width: 100%;
+
+
+}
+
+.wrapper .form .field{
+
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.wrapper .form .field label{
+
+    width: 200px;
+    color: #757575;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+
+.wrapper .form .field .input{
+
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+
+}
+
+.wrapper .form .field .input{
+
+    resize: none;
+    height: 45px;
+
+
+}
+
+.wrapper .form .field .input:focus{
+
+    border: 1px solid black;
+
+}
+
+.wrapper .form .field .btnn{
+
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0;
+    background: #fec107;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    transition: 0.5s;
+
+}
+
+
+.wrapper .form .field:last-child{
+
+    margin-bottom: 0;
+
+}
+
+.wrapper .form .field .btnn:hover{
+    background-color: #ffd658;
+}
+
+@media(max-width: 480px){
+
+    .wrapper{
+
+        margin: 7px;
+        padding: 7px;
+    }
+
+    .wrapper .form .field{
+
+        flex-direction: column;
+        align-items: flex-start;
+    
+    }
+
+    .wrapper .form .field label{
+
+        margin-bottom: 5px;
+
+    }
+
+}
